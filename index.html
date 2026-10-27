@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dubai Rent Increase Guide | RERA Rules, Caps and the Smart Rental Index</title>
+<meta name="description" content="How much can a Dubai landlord raise the rent? The Decree 43/2013 caps, the Smart Rental Index, the 90-day notice rule and worked examples for tenants and landlords.">
+<link rel="canonical" href="https://uae-rera-guide.azurestaticapps.net/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dubai Rent Increase Guide | RERA Rules, Caps and the Smart Rental Index">
+<meta property="og:description" content="How much can a Dubai landlord raise the rent? The Decree 43/2013 caps, the Smart Rental Index, the 90-day notice rule and worked examples for tenants and landlords.">
+<meta property="og:url" content="https://uae-rera-guide.azurestaticapps.net/">
+<meta name="twitter:card" content="summary">
+<style>
+  :root{
+    --green:#0b6b3a;
+    --green-dark:#084f2b;
+    --navy:#12355b;
+    --gold:#c9a227;
+    --ink:#1d2733;
+    --muted:#5a6a7a;
+    --bg:#f6f8f6;
+    --card:#ffffff;
+    --line:#dde5dd;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height:1.65;
+    font-size:17px;
+  }
+  .wrap{max-width:860px;margin:0 auto;padding:24px 18px 48px;}
+  header.top{
+    background:linear-gradient(135deg,var(--green-dark),var(--green));
+    color:#fff;
+    border-radius:14px;
+    padding:30px 28px 24px;
+    margin-bottom:26px;
+  }
+  header.top .brand{font-weight:700;letter-spacing:.4px;font-size:14px;text-transform:uppercase;color:#ffe9a8;}
+  header.top h1{margin:10px 0 10px;font-size:30px;line-height:1.25;}
+  header.top p{margin:0;color:#e8f3ec;font-size:16px;}
+  h2{color:var(--navy);font-size:24px;line-height:1.3;margin:36px 0 12px;padding-top:10px;border-top:3px solid var(--gold);}
+  h3{color:var(--green-dark);font-size:19px;margin:24px 0 8px;}
+  p{margin:10px 0;}
+  a{color:var(--green);font-weight:600;text-decoration:underline;}
+  a:hover{color:var(--green-dark);}
+  ul,ol{margin:10px 0 10px 22px;padding:0;}
+  li{margin:6px 0;}
+  .toc{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-left:5px solid var(--green);
+    border-radius:10px;
+    padding:18px 22px;
+    margin:22px 0;
+  }
+  .toc h2{border:none;margin:0 0 8px;padding:0;font-size:19px;}
+  .toc ol{margin:6px 0 6px 20px;}
+  .note{
+    background:#eef6f0;
+    border:1px solid var(--line);
+    border-left:5px solid var(--gold);
+    border-radius:10px;
+    padding:14px 18px;
+    margin:18px 0;
+  }
+  .note strong{color:var(--green-dark);}
+  table{border-collapse:collapse;width:100%;margin:16px 0;font-size:16px;}
+  th,td{border:1px solid var(--line);padding:9px 12px;text-align:left;}
+  th{background:var(--navy);color:#fff;}
+  tr:nth-child(even) td{background:#f2f6f2;}
+  .calc{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:22px;
+    margin:22px 0;
+    box-shadow:0 2px 10px rgba(18,53,91,.06);
+  }
+  .calc h2{border:none;padding:0;margin:0 0 6px;}
+  .faq-item{margin:16px 0;}
+  .faq-item h3{margin-bottom:4px;}
+  footer{
+    margin-top:44px;
+    border-top:3px solid var(--gold);
+    padding-top:18px;
+    color:var(--muted);
+    font-size:15px;
+  }
+  @media (max-width:600px){
+    body{font-size:16px;}
+    header.top h1{font-size:25px;}
+    h2{font-size:21px;}
+    .wrap{padding:16px 12px 40px;}
+  }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much can my landlord raise the rent in Dubai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on how far your current rent sits below the area average in the official rental index, under Decree No. 43 of 2013. Up to 10 percent below the average means no increase is allowed. Between 11 and 20 percent below allows at most 5 percent, 21 to 30 percent below allows 10 percent, 31 to 40 percent below allows 15 percent, and more than 40 percent below allows at most 20 percent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the percentage gap between my rent and the average worked out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The gap is measured against the average rent, not against your current rent. Subtract your rent from the average, then divide the difference by the average. On a rent of AED 80,000 against an average of AED 100,000, the gap is 20,000 divided by 100,000, which is 20 percent, so the 5 percent band applies. Dividing by your own rent instead gives 25 percent and the wrong band."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much notice must a landlord give for a rent increase in Dubai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ninety days before the tenancy contract ends, under Article 14 of Law No. 26 of 2007 as amended. If the notice of a rent change arrives later than that, the increase cannot take effect at that renewal and the rent stays at the existing level for the new term."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Dubai Smart Rental Index?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is the official rental index run by the Dubai Land Department, launched on 2 January 2025. It rates buildings from one to five stars using more than 60 criteria, covering building quality, maintenance, facilities and location, and it replaced the older approach that compared rents across a whole area with a single average."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My rent is AED 55,000 and the area average is AED 70,000. What is the highest lawful increase?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The gap is 15,000 divided by 70,000, which is 21.43 percent below the average, so the 10 percent band applies. The highest increase is 10 percent of AED 55,000, which is AED 5,500, taking the rent to AED 60,500 for the renewed term."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can my landlord raise the rent if it is already close to the area average?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. If your current rent is within 10 percent below the area average, or at or above it, Decree No. 43 of 2013 allows no increase at renewal. On a rent of AED 80,000 against an average of AED 85,000, the gap is 5.88 percent, so the rent must stay at AED 80,000."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What can I do if the increase I was given is higher than the cap?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ask for the index figure for your building in writing, work out the gap yourself using the average as the base, and put your figures to the landlord or agent. Many cases settle at that point. If they do not, you can open a case at the Rental Disputes Centre at the Dubai Land Department, whose commonly published filing fee is 3.5 percent of the annual rent, with a minimum of AED 500 and a maximum of AED 20,000."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do the rent caps apply to a brand-new tenancy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Decree No. 43 of 2013 bands govern increases at renewal between the same landlord and tenant. A first contract on a new property is agreed freely at the market rent. That agreed rent then becomes the figure the caps protect when the first renewal comes around."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a landlord raise the rent partway through a contract?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The rent written in the tenancy contract holds for the full term. A change can only be proposed for the renewal, it must stay inside the cap for the band your rent falls in, and it needs the 90-day notice before the current term ends."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="brand">Dubai Rent Increase Guide</div>
+  <h1>Dubai Rent Increase Guide: RERA Rules, Caps and the Smart Rental Index</h1>
+  <p>Plain-language explanations of how much a Dubai landlord can raise the rent, how the percentage gap is measured, and what tenants and landlords should check before a renewal is signed.</p>
+</header>
+
+<p>A renewal letter lands in the inbox and the new rent is higher than the old one. Two questions decide whether that figure stands. First, how far does the current rent sit below the going rate for the area, because Dubai law ties the size of any increase to that gap. Second, did the notice of the change arrive in time, because a late notice can hold the rent at its old level even when a rise would otherwise be allowed.</p>
+
+<p>This guide works through both questions step by step: the official caps set by Decree No. 43 of 2013, the Smart Rental Index that now supplies the comparison rent, the 90-day notice rule, and the route open to a tenant who is handed a figure above the cap. Landlords get the same checks from the other side, so a proposed increase is built on the right numbers from the start. For the wider set of property topics, see the <a href="https://uaecalculators.ae/property-mortgage-calculators/">Property &amp; Mortgage guides</a> on the main site.</p>
+
+<div class="note"><strong>Good to know:</strong> this guide covers tenancies regulated by the Dubai Land Department. Properties inside the DIFC follow a separate leasing law and court system, so the caps and procedures below do not apply there.</div>
+
+<nav class="toc">
+  <h2>On this page</h2>
+  <ol>
+    <li><a href="#cover">What this rent increase guide covers</a></li>
+    <li><a href="#check">Check your rent increase</a></li>
+    <li><a href="#bands">How much a landlord can raise the rent</a></li>
+    <li><a href="#gap">How the percentage gap is worked out</a></li>
+    <li><a href="#examples">What the caps look like on real rents</a></li>
+    <li><a href="#index">What the Smart Rental Index is</a></li>
+    <li><a href="#notice">How much notice a landlord must give</a></li>
+    <li><a href="#tenant">What a tenant should do when a rise lands</a></li>
+    <li><a href="#dispute">What it costs to challenge a rise</a></li>
+    <li><a href="#landlord">What a landlord should get right first</a></li>
+    <li><a href="#yield">How a capped rise affects rental yield</a></li>
+    <li><a href="#faq">Frequently asked questions</a></li>
+  </ol>
+</nav>
+
+<h2 id="cover">What Does This Rent Increase Guide Cover?</h2>
+
+<p>Rent increases in Dubai are not a negotiation free-for-all. A decree caps them, an official index supplies the comparison figure, and a notice deadline decides whether a lawful increase can actually take effect at the next renewal. This page explains each piece in the order a tenant or landlord meets it.</p>
+
+<ul>
+  <li><strong>The caps:</strong> the five bands of Decree No. 43 of 2013 and the highest increase each band allows.</li>
+  <li><strong>The gap:</strong> how the percentage distance between your rent and the area average is measured, and the denominator mistake that inflates it.</li>
+  <li><strong>The index:</strong> what the Smart Rental Index changed when it launched in January 2025, and why building quality now shapes the comparison.</li>
+  <li><strong>The notice:</strong> the 90-day rule in Article 14 of Law No. 26 of 2007, and how to count the deadline against a contract end date.</li>
+  <li><strong>The response:</strong> the steps a tenant can take when a proposed rise breaks the cap, and what a dispute case costs.</li>
+  <li><strong>The landlord side:</strong> the checks that make a proposed increase hold up, plus what a capped rise does to rental yield.</li>
+</ul>
+
+<p>Every figure below is shown with its working, so you can repeat the arithmetic on your own contract before you rely on it.</p>
+
+<div class="calc" id="check" style="text-align:center;">
+  <h2>Check Your Rent Increase</h2>
+  <p>Enter your current rent and the area average on the main site to see which band you fall in and the highest rent your landlord can set:</p>
+  <p style="margin:18px 0 8px;"><a href="https://uaecalculators.ae/rera-rental-increase-calculator/" style="display:inline-block;background:#0b6b3a;color:#ffffff;font-weight:700;padding:14px 28px;border-radius:8px;font-size:18px;text-decoration:none;">Check Your Rent Increase</a></p>
+</div>
+
+<h2 id="bands">How Much Can a Landlord Raise the Rent in Dubai?</h2>
+
+<p>The ceiling on a rent increase is set by Decree No. 43 of 2013. The decree does not work with a single flat percentage. It compares your current rent with the average rent for similar properties in your area, as published in the official rental index, and the further your rent sits below that average, the larger the increase the landlord may ask for at renewal. A rent that already matches the market cannot move at all.</p>
+
+<h3>What are the five increase bands?</h3>
+
+<table>
+  <tr><th>How far the current rent sits below the area average</th><th>Highest increase allowed</th></tr>
+  <tr><td>Up to 10 percent below</td><td>No increase</td></tr>
+  <tr><td>11 to 20 percent below</td><td>5 percent</td></tr>
+  <tr><td>21 to 30 percent below</td><td>10 percent</td></tr>
+  <tr><td>31 to 40 percent below</td><td>15 percent</td></tr>
+  <tr><td>More than 40 percent below</td><td>20 percent</td></tr>
+</table>
+
+<p>Two points in this table are easy to miss. The first is that the bands govern renewals. The rent in a signed contract holds for its full term, and the caps are applied when that contract is renewed between the same landlord and tenant. The second is that the percentage in the left column is not the increase itself. It is the size of the gap between your rent and the average, and reading it as the allowed rise is the mistake the next section takes apart.</p>
+
+<h3>What if my rent is above the area average?</h3>
+
+<p>Then no increase is allowed either, and the tenant has the stronger hand in the renewal conversation. The decree only opens room for a rise when the current rent sits below the average. A tenant paying above the index figure can point to the comparison during negotiation, and a landlord who wants to keep a reliable tenant often meets the index level rather than lose the tenancy and face a vacancy.</p>
+
+<h2 id="gap">How Is the Percentage Gap Worked Out?</h2>
+
+<p>Everything in the bands table turns on one subtraction and one division, and the division is where increases go wrong. The gap is the difference between the area average and your current rent, expressed as a share of the average. The average is the base. Your own rent is never the base.</p>
+
+<h3>Why does the base figure matter so much?</h3>
+
+<p>Take a rent of AED 80,000 against an area average of AED 100,000. The difference is AED 20,000. Measured the correct way, against the average, the gap is 20,000 divided by 100,000, which is 20 percent. That lands in the 11 to 20 percent band, so the highest lawful increase is 5 percent: AED 4,000, taking the rent to AED 84,000.</p>
+
+<p>Now measure it the wrong way, against the current rent. The same AED 20,000 divided by AED 80,000 gives 25 percent, which looks like the 21 to 30 percent band and a 10 percent increase. That version produces a rise of AED 8,000 and a new rent of AED 88,000. The wrong base alone overstates the increase by AED 4,000 a year, and it is the single most common reason a proposed Dubai rent rise breaks the cap. When an agent presents you with a percentage, ask which figure it was divided by.</p>
+
+<h3>A worked example in the 10 percent band</h3>
+
+<p>A tenant pays AED 55,000 a year, and the index average for the area is AED 70,000. The difference is AED 15,000. Divided by the average of AED 70,000, the gap is 21.43 percent below the average. That sits in the 21 to 30 percent band, so the highest increase is 10 percent of the current rent: AED 5,500. The highest rent the landlord can set at renewal is AED 60,500. A proposal of AED 66,000, a 20 percent rise, overshoots the cap by AED 5,500 and can be challenged on the arithmetic alone.</p>
+
+<h3>A worked example where no rise is allowed</h3>
+
+<p>Another tenant pays AED 80,000 against an average of AED 85,000. The difference is AED 5,000, and divided by the average it gives a gap of 5.88 percent. Because the rent sits within 10 percent below the average, the decree allows no increase at all. The renewal must be offered at AED 80,000, however the letter from the agent is worded.</p>
+
+<h2 id="examples">What Do the Caps Look Like on Real Rents?</h2>
+
+<p>The table below holds the area average steady at AED 100,000 and walks down the bands, one row per band edge. It shows how sharply the allowed increase changes once the gap crosses a band boundary.</p>
+
+<table>
+  <tr><th>Current rent</th><th>Gap below average</th><th>Band</th><th>Highest rise</th><th>Highest new rent</th></tr>
+  <tr><td>AED 90,000</td><td>10.00 percent</td><td>No increase</td><td>AED 0</td><td>AED 90,000</td></tr>
+  <tr><td>AED 89,000</td><td>11.00 percent</td><td>5 percent</td><td>AED 4,450</td><td>AED 93,450</td></tr>
+  <tr><td>AED 79,000</td><td>21.00 percent</td><td>10 percent</td><td>AED 7,900</td><td>AED 86,900</td></tr>
+  <tr><td>AED 69,000</td><td>31.00 percent</td><td>15 percent</td><td>AED 10,350</td><td>AED 79,350</td></tr>
+  <tr><td>AED 59,000</td><td>41.00 percent</td><td>20 percent</td><td>AED 11,800</td><td>AED 70,800</td></tr>
+</table>
+
+<p>Read the first two rows together. A rent of AED 90,000 cannot rise at all, while a rent only AED 1,000 lower, at AED 89,000, can rise by AED 4,450. Small movements in either figure, your rent or the published average, can move a tenancy across a boundary, which is why the exact index figure for your building matters more than a rough sense of the area.</p>
+
+<h3>What happens across two renewals?</h3>
+
+<p>The cap is measured fresh at every renewal, against the average published at that time. Start with a rent of AED 80,000 and an average of AED 100,000. The gap is 20 percent, the 5 percent band applies, and the rent can rise to AED 84,000. A year later the area has moved and the average stands at AED 110,000. The gap is now 26,000 divided by 110,000, which is 23.64 percent, so this time the 10 percent band applies and the rent can reach AED 92,400. Two lawful steps took the rent from AED 80,000 to AED 92,400, and neither step broke the decree, because each was measured against the average of its own year.</p>
+
+<h2 id="index">What Is the Smart Rental Index?</h2>
+
+<p>The average in every calculation above comes from the official rental index maintained by the Dubai Land Department. In January 2025 that index changed its method, and the change affects which figure your rent is compared against.</p>
+
+<h3>What changed in January 2025?</h3>
+
+<p>The Smart Rental Index launched on 2 January 2025 and replaced the older index, which worked from broad area averages. The new index rates each building from one to five stars, using more than 60 criteria that cover the building itself: its age and condition, maintenance standard, facilities, services and location. Two buildings on the same street can now carry different comparison rents, because a well-kept tower with strong facilities rates higher than a tired building next door.</p>
+
+<p>For a tenant, the practical effect is that the comparison figure follows the building, not just the district. A landlord in a five-star building can point to a higher index average than the street norm, while a tenant in an older building should not accept a comparison drawn from the premium towers around it. When you check a proposed increase, the figure to ask for is the index value attached to your building, and you can ask the landlord or agent to show it in writing.</p>
+
+<h3>Does the index set my rent?</h3>
+
+<p>No. The index sets the comparison that the caps are measured against. Your rent is still the figure in your contract, agreed when you signed. The index decides how much room the landlord has to move that figure at renewal, nothing more. A brand-new tenancy on a new property is priced by the market, and the index only starts to matter when that tenancy reaches its first renewal.</p>
+
+<h2 id="notice">How Much Notice Must a Landlord Give?</h2>
+
+<p>A rise can pass the cap test and still fail on timing. Article 14 of Law No. 26 of 2007, as amended, requires either party who wants to change a term of the tenancy, including the rent, to notify the other party at least 90 days before the contract ends. If the notice is late, the change does not take effect at that renewal, whatever the bands allow.</p>
+
+<h3>How do you count the 90 days?</h3>
+
+<p>Count back 90 days from the end date printed in the contract. A contract that ends on 31 March 2027 needs the notice served by 31 December 2026: January contributes 31 days, February 28 days in 2027, and March 31 days, which makes the full 90. A letter that arrives on 15 January 2027 for that same contract is roughly six weeks late, and the tenant can hold the rent at its current level for the renewed term on that ground alone.</p>
+
+<div class="note"><strong>Tip:</strong> keep the envelope, email header or delivery record for any rent notice you receive. In a dispute, the date the notice was served is often the first thing checked, and it is the point tenants most often cannot prove after the fact.</div>
+
+<h3>Is a rent notice the same as an eviction notice?</h3>
+
+<p>No, and the two are often confused. A rent notice proposes a new rent for a continuing tenancy under the caps above. Eviction is a separate matter with its own limited grounds under the tenancy law, and it carries a much longer notice period served through a notary or registered mail. A landlord cannot use a rent increase letter as a shortcut to end a tenancy, and a tenant facing an eviction claim should take advice on that claim specifically, not treat it as a pricing dispute.</p>
+
+<h2 id="tenant">What Should a Tenant Do When a Rise Lands?</h2>
+
+<p>Work through the proposal in the same order the law does, and keep everything in writing. Four checks settle most cases before they become disputes.</p>
+
+<ol>
+  <li><strong>Get the index figure.</strong> Ask the landlord or agent for the Smart Rental Index value for your building, in writing. A proposal that cannot be tied to an index figure is not ready to be agreed.</li>
+  <li><strong>Measure the gap yourself.</strong> Subtract your current rent from the index average and divide by the average, never by your own rent. Find your band in the Decree No. 43 of 2013 table and work out the highest rent the band allows.</li>
+  <li><strong>Check the notice date.</strong> Count the days between the date the notice reached you and the end of your contract. Fewer than 90 days means the increase cannot take effect at this renewal.</li>
+  <li><strong>Answer with your figures.</strong> Reply showing the index average, the gap percentage, the band and the highest lawful rent. Most over-cap proposals are corrected at this stage, because the arithmetic is hard to argue with once it is on the page.</li>
+</ol>
+
+<p>For a fuller walkthrough of the tenant side, including the notice wording and the steps after a landlord refuses to move, read the <a href="https://uaecalculators.ae/rera-rent-increase-rules-dubai/">full guide to the RERA rent increase rules in Dubai</a> on the main site. And before you sign a renewal at a higher figure, remember that a signed contract is hard to unwind: the time to test the cap is before the signature, not after.</p>
+
+<h2 id="dispute">What Does It Cost to Challenge a Rise?</h2>
+
+<p>If the figures are put to the landlord and the proposal still breaks the cap, the case goes to the Rental Disputes Centre at the Dubai Land Department, the body that hears tenancy disputes in the emirate. The Centre can confirm the index figure, apply the bands and set the renewal rent at the lawful level.</p>
+
+<p>The commonly published filing fee for a case at the Centre is 3.5 percent of the annual rent, with a minimum of AED 500 and a maximum of AED 20,000. On an annual rent of AED 55,000, the fee works out at AED 1,925. The floor and the cap bite at the ends of the market: on a small tenancy of AED 12,000 a year the raw percentage gives AED 420, so the AED 500 minimum applies, while on a rent of AED 700,000 a year the raw figure of AED 24,500 is pulled back to the AED 20,000 maximum.</p>
+
+<p>Set that cost against what is at stake before you file. In the worked example earlier in this guide, the over-cap part of the proposal was AED 5,500 a year, every year of the renewed term. A filing fee of AED 1,925 to remove a recurring AED 5,500 overcharge is a straightforward trade, and in practice many landlords settle once a case number exists. Bring the contract, the Ejari certificate, the rent notice with its delivery date and your own gap calculation set out in the same order as this guide.</p>
+
+<h2 id="landlord">What Should a Landlord Get Right Before Raising the Rent?</h2>
+
+<p>A landlord who runs the same checks in advance sends a proposal that survives scrutiny, and a rise agreed without argument is worth more than a larger one lost at the Rental Disputes Centre. Four habits cover it.</p>
+
+<ul>
+  <li><strong>Start from your building's index value.</strong> The Smart Rental Index rates buildings individually, so use the figure attached to your building rather than an area-wide asking price from a listing portal. Advertised rents are not the index.</li>
+  <li><strong>Measure the gap against the average.</strong> The denominator error described earlier cuts both ways: a landlord who divides by the current rent overstates the band, and a rise collected on that basis can be clawed back at renewal.</li>
+  <li><strong>Serve the notice inside the 90 days.</strong> Put the proposed rent in writing and deliver it at least 90 days before the contract ends, keeping proof of the delivery date. A perfect calculation served late buys nothing until the following renewal.</li>
+  <li><strong>Put the agreed rent in the renewed contract.</strong> The renewed rent, the term and the Ejari registration should all match. Loose ends between the letter, the contract and the registration are where otherwise sound increases come apart.</li>
+</ul>
+
+<p>There is also a commercial point behind the legal one. A tenant who receives a fair, well-documented rise inside the cap usually renews. A tenant handed an over-cap figure starts flat-hunting, and a month of vacancy on an AED 60,500 rent costs more than AED 5,000, which can erase the extra the over-cap proposal was chasing.</p>
+
+<h2 id="yield">How Does a Capped Rise Affect Rental Yield?</h2>
+
+<p>Landlords who hold a property as an investment feel the caps through the yield. Gross rental yield is the annual rent divided by the purchase price, so a capped increase flows straight into the return. An apartment bought for AED 1,000,000 and let at AED 65,000 returns 6.5 percent gross. If the renewal increase is capped at 5 percent, the rent moves to AED 68,250 and the yield to about 6.83 percent, rather than the higher figure an uncapped rise might have produced.</p>
+
+<p>That is the honest way to model a Dubai holding: assume increases arrive in the steps the bands allow, measured against an index that moves with the building's rating, instead of pencilling in a flat rise every year. To run the full picture on a specific property, including service charges and a vacancy allowance against the gross figure, <a href="https://uaecalculators.ae/rental-yield-calculator/">work out a rental yield</a> on the main site.</p>
+
+<h2>Short Answers</h2>
+
+<div class="faq-item">
+  <h3>What is the highest rent increase allowed in Dubai?</h3>
+  <p>20 percent, and only where the current rent sits more than 40 percent below the area average. Most tenancies fall in the lower bands or the no-increase band.</p>
+</div>
+<div class="faq-item">
+  <h3>How much notice does a rent change need?</h3>
+  <p>At least 90 days before the tenancy contract ends, under Article 14 of Law No. 26 of 2007 as amended.</p>
+</div>
+<div class="faq-item">
+  <h3>Where does the area average come from?</h3>
+  <p>From the Smart Rental Index run by the Dubai Land Department, which rates buildings from one to five stars and sets the comparison rent for each building.</p>
+</div>
+<div class="faq-item">
+  <h3>Who settles a rent increase dispute?</h3>
+  <p>The Rental Disputes Centre at the Dubai Land Department, which applies Decree No. 43 of 2013 to the figures in the case.</p>
+</div>
+
+<h2 id="faq">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+  <h3>How much can my landlord raise the rent in Dubai?</h3>
+  <p>It depends on how far your current rent sits below the area average in the official rental index, under Decree No. 43 of 2013. Up to 10 percent below the average means no increase is allowed. Between 11 and 20 percent below allows at most 5 percent, 21 to 30 percent below allows 10 percent, 31 to 40 percent below allows 15 percent, and more than 40 percent below allows at most 20 percent.</p>
+</div>
+<div class="faq-item">
+  <h3>How is the percentage gap between my rent and the average worked out?</h3>
+  <p>The gap is measured against the average rent, not against your current rent. Subtract your rent from the average, then divide the difference by the average. On a rent of AED 80,000 against an average of AED 100,000, the gap is 20,000 divided by 100,000, which is 20 percent, so the 5 percent band applies. Dividing by your own rent instead gives 25 percent and the wrong band.</p>
+</div>
+<div class="faq-item">
+  <h3>How much notice must a landlord give for a rent increase in Dubai?</h3>
+  <p>Ninety days before the tenancy contract ends, under Article 14 of Law No. 26 of 2007 as amended. If the notice of a rent change arrives later than that, the increase cannot take effect at that renewal and the rent stays at the existing level for the new term.</p>
+</div>
+<div class="faq-item">
+  <h3>What is the Dubai Smart Rental Index?</h3>
+  <p>It is the official rental index run by the Dubai Land Department, launched on 2 January 2025. It rates buildings from one to five stars using more than 60 criteria, covering building quality, maintenance, facilities and location, and it replaced the older approach that compared rents across a whole area with a single average.</p>
+</div>
+<div class="faq-item">
+  <h3>My rent is AED 55,000 and the area average is AED 70,000. What is the highest lawful increase?</h3>
+  <p>The gap is 15,000 divided by 70,000, which is 21.43 percent below the average, so the 10 percent band applies. The highest increase is 10 percent of AED 55,000, which is AED 5,500, taking the rent to AED 60,500 for the renewed term.</p>
+</div>
+<div class="faq-item">
+  <h3>Can my landlord raise the rent if it is already close to the area average?</h3>
+  <p>No. If your current rent is within 10 percent below the area average, or at or above it, Decree No. 43 of 2013 allows no increase at renewal. On a rent of AED 80,000 against an average of AED 85,000, the gap is 5.88 percent, so the rent must stay at AED 80,000.</p>
+</div>
+<div class="faq-item">
+  <h3>What can I do if the increase I was given is higher than the cap?</h3>
+  <p>Ask for the index figure for your building in writing, work out the gap yourself using the average as the base, and put your figures to the landlord or agent. Many cases settle at that point. If they do not, you can open a case at the Rental Disputes Centre at the Dubai Land Department, whose commonly published filing fee is 3.5 percent of the annual rent, with a minimum of AED 500 and a maximum of AED 20,000.</p>
+</div>
+<div class="faq-item">
+  <h3>Do the rent caps apply to a brand-new tenancy?</h3>
+  <p>The Decree No. 43 of 2013 bands govern increases at renewal between the same landlord and tenant. A first contract on a new property is agreed freely at the market rent. That agreed rent then becomes the figure the caps protect when the first renewal comes around.</p>
+</div>
+<div class="faq-item">
+  <h3>Can a landlord raise the rent partway through a contract?</h3>
+  <p>No. The rent written in the tenancy contract holds for the full term. A change can only be proposed for the renewal, it must stay inside the cap for the band your rent falls in, and it needs the 90-day notice before the current term ends.</p>
+</div>
+
+<h2>More Guides in This Series</h2>
+
+<p>Renting sits alongside the money decisions that surround a home in the UAE. The companion guide to <a href="https://loansavingcalculator.pages.dev/">loan and savings figures in the UAE</a> works through borrowing caps and deposit returns for tenants weighing a future purchase, and the companion <a href="https://uae-tax-calculators.vercel.app/">UAE tax guide</a> covers VAT and corporate tax for landlords who hold property through a company. The full set of property guides and tools lives on <a href="https://uaecalculators.ae/">uaecalculators.ae</a>.</p>
+
+<h2>Sources and Official References</h2>
+
+<p>The rules summarised on this page come from Decree No. 43 of 2013 on rent increases in Dubai, Law No. 26 of 2007 regulating landlord and tenant relations as amended by Law No. 33 of 2008, and the Smart Rental Index published by the Dubai Land Department. For official services and guidance, see the <a href="https://dubailand.gov.ae/">Dubai Land Department</a> and the <a href="https://u.ae/">UAE Government portal (u.ae)</a>.</p>
+
+<footer>
+  <p><strong>Dubai Rent Increase Guide</strong> - guidance on the rent increase caps, the Smart Rental Index, notice periods and dispute routes for tenants and landlords in Dubai. All figures are worked examples based on the published rules; confirm the index figure for your building and the position on your own contract through official channels before acting.</p>
+  <p>Updated October 2026.</p>
+</footer>
+
+</div>
+
+</body>
+</html>
